@@ -1,0 +1,10 @@
+{
+  "kmeans_k4": {
+    "silhouette": 0.36567309477847776,
+    "inertia": 4845.921957376414
+  },
+  "hierarchical_k4": {
+    "silhouette": 0.32848736615650487,
+    "linkage": "ward"
+  }
+}

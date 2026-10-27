@@ -1,0 +1,5 @@
+cluster,segment_name,num_customers,pct_customers,total_revenue,pct_revenue,avg_recency,avg_frequency,avg_monetary,avg_aov,avg_tenure
+3,Champions / High-Value Loyal,1175,20.13,12070863.72,73.68,25.6,19.5,10273.08,474.21,619.2
+1,At-Risk Customers,1447,24.79,2632123.42,16.07,221.9,5.1,1819.02,435.95,575.2
+2,Loyal Customers,1257,21.54,1069355.86,6.53,27.0,3.1,850.72,308.76,283.6
+0,Hibernating / Churned,1958,33.54,610285.02,3.73,391.7,1.4,311.69,244.99,444.7

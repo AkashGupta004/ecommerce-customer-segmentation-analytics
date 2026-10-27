@@ -1,0 +1,33 @@
+{
+  "initial_rows": 1067371,
+  "cleaned_total_rows": 797815,
+  "total_valid_purchases": 779425,
+  "total_cancellations": 18390,
+  "unique_customers_retained": 5939,
+  "cleaning_steps": [
+    {
+      "step": "1. Remove Missing Customer IDs",
+      "rows_before": 1067371,
+      "rows_after": 824364,
+      "rows_removed": 243007,
+      "pct_removed": 22.766872999172733,
+      "rationale": "Customer segmentation requires known customer identities to track cross-session behavior."
+    },
+    {
+      "step": "2. Remove Exact Duplicates",
+      "rows_before": 824364,
+      "rows_after": 797885,
+      "rows_removed": 26479,
+      "pct_removed": 3.212051957630367,
+      "rationale": "Exact duplicate rows represent technical logging or retransmission glitches."
+    },
+    {
+      "step": "3. Remove Non-positive Prices",
+      "rows_before": 797885,
+      "rows_after": 797815,
+      "rows_removed": 70,
+      "pct_removed": 0.008773194131986439,
+      "rationale": "Prices <= 0 indicate zero-value samples, damaged stock write-offs, or system credits."
+    }
+  ]
+}

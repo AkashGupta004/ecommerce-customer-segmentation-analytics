@@ -1,0 +1,22 @@
+# E-Commerce Customer Segmentation & Business Analytics
+# Core Data Science & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+pyarrow>=12.0.0
+
+# Machine Learning & Dimensionality Reduction
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Interactive Business Dashboard
+streamlit>=1.30.0
+
+# Jupyter Notebook Environment (Optional)
+jupyter>=1.0.0
+ipykernel>=6.25.0
